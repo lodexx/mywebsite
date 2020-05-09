@@ -1,0 +1,96 @@
+.container{
+	max-width: 1200px;
+	padding: 30px;
+	padding-bottom: 60px
+}
+
+
+body{
+	background-color: ;
+}
+
+.col-md{
+	margin-top: 30px;
+}
+
+.resume{
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+
+main, .navbar .container-fluid{
+	max-width: 1200px;
+	
+}
+
+
+
+h1{
+	font-size: 36px;
+	font-family: sans-serif;
+	padding-top: 60px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 18px;
+	font-family: sans-serif;
+	
+
+}
+
+footer{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	background-image: url("images/tech-background.jpg");
+
+}
+
+nav ul{
+	margin: 0 auto;
+}
+
+form{
+	padding: 30px;
+
+}
+
+#contact{
+	background-image: url("images/contact.png");
+	background-size: 50%;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+
+
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+
+	h2{
+		font-size: 1.5em
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 1.2em
+	}
+}
+
